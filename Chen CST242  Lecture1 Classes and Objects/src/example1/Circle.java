@@ -1,22 +1,42 @@
 package example1;
 
 public class Circle {
-	double radius;
+	private double radius;
+	
+	
+	//overloaded constructors
+	public Circle() { // no-arg constructor
+		
+	}
+	
+	public Circle(double radius) {
+		this.radius = radius;
+	}
 	
 	//methods
-	double getArea() {
+	public double getArea() {
 		return Math.PI * radius * radius;
 	}
-	double getCircumference() {
+	public double getCircumference() {
 		return Math.PI * radius * 2;
 	}
 	
-	void setRadius(double newRadius) {
-		radius = newRadius;
+	// setter or mutator method
+	public void setRadius(double radius) {
+		this.radius = radius;
 	}
 	
-	double getRadius() {
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+	
+	// getter or accessor method
+	public double getRadius() {
 		return radius;
+	}
+	
+	public String toString() {
+		return "Radius = " + radius;
 	}
 
 }
