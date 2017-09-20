@@ -2,21 +2,24 @@ package college;
 
 public class Student {
 	private Name name;
-	private int id;
+	private String id;
 	private double gpa;
-	
+
 	private static int idCounter = 0;
 
 	public Student(String firstName, String lastName) {
-		idCounter++;
-		id = idCounter;
+		final int ID_LENGTH = 10;
+		id = String.valueOf(idCounter++);
+		for (int i = ID_LENGTH; i > String.valueOf(idCounter).length(); i--) {
+			id = '0' + id;
+		}
+		id = 'S' + id;
 		name = new Name(firstName, lastName);
 	}
 
 	public Student(String firstName, char middleInitial, String lastName) {
-		idCounter++;
-		id = idCounter;
-		name = new Name(firstName, middleInitial, lastName);
+		this(firstName, lastName);
+		name.setMiddleInitial(middleInitial);
 	}
 
 	public Name getName() {
@@ -35,7 +38,7 @@ public class Student {
 		this.gpa = gpa;
 	}
 
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
