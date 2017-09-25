@@ -1,0 +1,14 @@
+package college;
+
+import java.io.Console;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		Console cons = System.console();
+		String name = cons.readLine("User name: ");
+		char[] passwd = cons.readPassword("Password: ");
+		System.out.println(passwd.toString());
+	}
+
+}

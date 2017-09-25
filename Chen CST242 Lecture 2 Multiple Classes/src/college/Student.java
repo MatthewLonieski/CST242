@@ -35,6 +35,10 @@ public class Student {
 	}
 
 	public void setGpa(double gpa) {
+		if(gpa > 4.0 || gpa < 0.0) {
+			System.out.println("Hey, GPA is invalid!");
+			return;
+		}
 		this.gpa = gpa;
 	}
 
