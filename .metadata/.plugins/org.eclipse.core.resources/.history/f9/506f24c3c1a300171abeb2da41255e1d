@@ -1,0 +1,14 @@
+package sampleCode1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Student s1 = new Student("John", 'A', "Doe");
+		Student s2 = new Student("Jane", "Doe");
+		s1.setGpa(3.0);
+		s2.setGpa(4.0);
+		System.out.println(s1);
+		
+	}
+
+}
