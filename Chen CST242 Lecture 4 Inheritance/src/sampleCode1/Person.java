@@ -4,11 +4,12 @@ package sampleCode1;
  * A subclass gets everything that is not private from the superclass
  * Keyword final prevents any subclasses
  * Overridden methods-- methods with the same signature in super- and sub-classes
+ * Inheritance is an one-way-street -- from parent to child only
  */ 
 import college.Name;
 
 public class Person {
-	private Name name;
+	protected Name name;
 	private String id;
 
 	private static int idCounter = 0;
