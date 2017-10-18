@@ -1,0 +1,17 @@
+package college;
+
+public class Demo3 {
+	public static void main(String[] args) {
+		double d = 10.5;
+		int i = 1;
+		d = i;
+		i = (int)d;
+		
+//		Student s1 = new Student("Adam", "Smith");
+//		Faculty f1 = new Faculty("Ben", "Chen");
+//		Person p1 = new Person("John", "Doe");
+//		
+//		System.out.println(f1 instanceof Person);
+		
+	}
+}

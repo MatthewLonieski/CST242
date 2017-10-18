@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;ducks&apos; to &apos;Chen CST242 Lecture 9 polymorphism/src&apos;&#x0A;- Original project: &apos;Chen CST242 Lecture 9 polymorphism&apos;&#x0A;- Destination element: &apos;Chen CST242 Lecture 9 polymorphism/src&apos;&#x0A;- Original element: &apos;Chen CST242 Lecture 9 polymorphism/src/ducks&apos;" description="Copy package" destination="/src" element1="/src&lt;ducks" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1508360585945" version="1.0"/>
+</session>
