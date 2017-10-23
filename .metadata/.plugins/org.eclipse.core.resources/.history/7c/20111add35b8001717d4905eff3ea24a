@@ -1,0 +1,9 @@
+package p4FunctionalInterfaces;
+
+public interface IntCalculator {
+	int compute(int number1, int number2);
+
+	default int add(int number1, int number2) {
+		return number1 + number2;
+	}
+}

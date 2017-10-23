@@ -1,0 +1,11 @@
+package p4FunctionalInterfaces;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		IntCalculator square = a -> a * a;
+		
+		System.out.println(square.compute(5));
+	}
+
+}

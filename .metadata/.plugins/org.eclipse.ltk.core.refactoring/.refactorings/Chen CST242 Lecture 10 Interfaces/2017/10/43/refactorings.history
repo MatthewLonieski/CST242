@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;IntCalculator.java&apos; to &apos;Chen CST242 Lecture 10 Interfaces/src/p2AnonymousClass&apos;&#x0A;- Original project: &apos;Chen CST242 Lecture 10 Interfaces&apos;&#x0A;- Destination element: &apos;Chen CST242 Lecture 10 Interfaces/src/p2AnonymousClass&apos;&#x0A;- Original element: &apos;p1Intro.IntCalculator.java&apos;" description="Copy compilation unit" destination="/src&lt;p2AnonymousClass" element1="/src&lt;p1Intro{IntCalculator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1508790608679" units="1" version="1.0"/>
+</session>
