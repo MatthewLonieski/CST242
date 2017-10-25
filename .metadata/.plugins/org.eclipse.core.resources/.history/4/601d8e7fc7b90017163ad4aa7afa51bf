@@ -1,0 +1,23 @@
+package p2;
+
+import java.util.Scanner;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(System.in);
+		Student s = new Student("John", 2.5);
+		System.out.println(s);
+		try {
+			s.setGpa(5.0);
+		} catch (IllegalArgumentException e) {
+			double gpa;
+			System.out.println("Invalid GPA. Enter a new GPA again: ");
+			gpa = kb.nextDouble();
+			s.setGpa(gpa);
+		}
+		s.setName("Bill");
+		System.out.println(s);
+	}
+
+}

@@ -1,0 +1,27 @@
+package p1;
+
+import java.util.Scanner;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		String[] names = new String[10];
+		names[0] = "Adam";
+		// names[1] = "Bill";
+		names[9] = "Charlie";
+		names[5] = "Zack";
+		
+		// unchecked runtime exception
+//		for (int i = 0; i < names.length; i++) {
+//			System.out.println(names[i].length());
+//		}
+		// unchecked runtime exception
+//		System.out.println(names[-1]);
+		
+		Scanner kb = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		double number = kb.nextDouble();
+		System.out.println("The number is: " + number);
+	}
+
+}

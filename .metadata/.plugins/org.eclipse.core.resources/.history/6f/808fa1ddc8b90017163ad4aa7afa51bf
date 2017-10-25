@@ -1,0 +1,11 @@
+package p2;
+
+public class InvalidGPAException extends RuntimeException {
+	public InvalidGPAException() {
+		super();
+	}
+	
+	public InvalidGPAException(String message) {
+		super(message);
+	}
+}
